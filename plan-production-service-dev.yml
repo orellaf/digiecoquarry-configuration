@@ -5,6 +5,7 @@ server:
   
 spring:
   datasource:
+    platform: h2
     url: jdbc:h2:mem:plan-production
     username: sa
     password: password
